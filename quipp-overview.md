@@ -3,6 +3,19 @@
 ## What's the problem?
 
 - We know that the only way to answer key questions in x, y, z is to use data that is ultimately derived from sensitive personally identifiable data (examples)
+  - Census data (small individual sample, aggregated population, 4 years in arrears, transient groups missing, bias from participation  imbalance)
+  - Other government data on society (more real-time):
+    - Tax records
+    - Electoral register
+    - Student records
+    - Employment records
+    - Migration records
+    - Birth and death records
+    - Land registry
+    - Rental agreements (private and public)
+  - Health records (rare diseases, combinatorial uniqueness)
+    - Hospitals
+    - GPs
 - We know it's not ok to release these data sets
   - Research ethics / responsible AI
   - Legal restrictions
@@ -13,7 +26,7 @@
 - Anonymisation not as easy as people may think
   - Not enough to remove names and identifiers
   - Obviously wrong toy example
-  - Reidentification attacks
+  - Reidentification attacks - where it's gone wrong
 - Lots of techniques proposed to de-identify data
   - Differential privacy approaches
     - Aggregation and noise with maths
@@ -60,7 +73,14 @@
 - Access us to sensitive data sets
 - Understanding the structure of your data
 - Understanding the questions you are asking of it
-- Validating our measures of privacy and utility preservation for **your** dtaa and questions
+- Validating our measures of privacy and utility preservation for **your** data and questions
+
+## How are we working?
+- Open data, analysis and guidance
+- Collaboratively (come work with us)
+- Reproducible, extensible tools to let people incorporate **their** data and data science analyses
+- Something to set expectations around what we can do ourselves
+  - Highlight end to end tool set 
 
 ## Links to other projects
 - RADDISH: Incorporating reeal-time data into disaster response
