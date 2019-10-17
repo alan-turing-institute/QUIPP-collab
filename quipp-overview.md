@@ -4,6 +4,9 @@
 
 - We know that the only way to answer key questions in x, y, z is to use data that is ultimately derived from sensitive personally identifiable data (examples)
 - We know it's not ok to release these data sets
+  - Research ethics / responsible AI
+  - Legal restrictions
+  - Consent / trust from - individual?s | public?
 - Access control only goes so far and presents a high barrier to entry
   - Is privacy budget here or later?
   - is statistical disclosure control here or later
@@ -21,16 +24,21 @@
   - Totally open unaltered -> Max utility, no privacy
   - In between some trade off where we buy privacy by reducing utility. Can we quantify how well privacy is preserved and the additional uncertainty introduced in the data?
   - Don't know where the various privacy preservation techniques lie on this line
-  - That's what we're doing
+- How do data providers, research subjects and public:
+  - Understand how the algorithms and measures work
+  - Trust that privacy is sufficiently preserved
+  - Trust that utility is sufficently preserved (e.g. relevant relations and structure preserved, no additional bias introduced)
+- That's what we're doing
 
 ## What are we doing?
 
 - We're making a **tools** to allow people to:
   - Quantify the balance between preserving privacy and preserving utility
   - Understand how uncertainty is propagated within a system
-- We're considering how quantifying privacy, utility and uncertainty depend on the domain
-  - How do these depend on the structure of the data?
-  - How do these depend on the questions being asked of the data?
+- We're considering how methods and measures depend on the domain
+  - How do these depend on the structure of the data (e.g. time series, spatial structure)?
+  - How do these depend on how the data is generated (e.g. one-off snapshot, regular updates, streaming, introduction of new variables)?
+  - How do these depend on the questions being asked of the data (e.g. classification, regression, simulation)?
 
 - We're **not**:
   - Making new data synthesis techniques
@@ -42,13 +50,24 @@
   - Taking techniques from specific domains and applying them across new domains
   - Generating new synthetic data sets
   - Adapting and extending techniques for **quantifying** privacy preservation, utility preservation and uncertainty quantification
+  - Make all our tools, analyses and guidance available under permissive open source licences
 
 ## How can we help you?
 - Generate less sensitive versions of your sensitive data
-- Understand how various privacy preserving techniques wprk on your data and how privacy and utility trade off
+- Understand how various privacy preserving techniques trade off privacy and utility for **your** data
 
 ## How can you help us?
 - Access us to sensitive data sets
-- Underastanding the structure of your data
+- Understanding the structure of your data
 - Understanding the questions you are asking of it
-- Sense checking our measures of privacy and utility preservation
+- Validating our measures of privacy and utility preservation for **your** dtaa and questions
+
+## Links to other projects
+- Data Safe Haven (we don't need perfection, we can safely share data with wider researcnh audience while providing access to data science tooling)
+- RADDISH: Incorporating reeal-time data into disaster response
+- SPENSER: Generating custom dynamic synthetic populations
+- Computational models of police demand dynamics: Understanding dynamics of police demand
+- SIPHER: Early years health interventions
+- Other health examples from Sebastian
+- You?
+
