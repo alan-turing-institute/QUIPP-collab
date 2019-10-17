@@ -63,11 +63,13 @@
 - Validating our measures of privacy and utility preservation for **your** dtaa and questions
 
 ## Links to other projects
-- Data Safe Haven (we don't need perfection, we can safely share data with wider researcnh audience while providing access to data science tooling)
 - RADDISH: Incorporating reeal-time data into disaster response
 - SPENSER: Generating custom dynamic synthetic populations
 - Computational models of police demand dynamics: Understanding dynamics of police demand
 - SIPHER: Early years health interventions
 - Other health examples from Sebastian
-- You?
+- Data Safe Haven (we don't need perfection, we can safely share data with wider researcnh audience while providing access to data science tooling)
+- Turing Way: Dissemination of learning
+- Ethics in AI: Transparency and interprebility  
+- Your project here
 
