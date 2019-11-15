@@ -12,7 +12,7 @@ This document lists the QUiPP project team members and describes how we use GitH
 | Nick Malleson      |
 | Sebastian Vollmer  |
 | Greg Mingas        |
-| Oliver Strickson   | RSE, REG lead           | 0.5                           | Oct 2019 - Endn.                 |
+| Oliver Strickson   | RSE, REG lead           | 0.5                           | Oct 2019 - End                   |
 | Louise Bowler      | Research Data Scientist | 0.5                           | Oct 2019 - ?                     |
 | Kasra Hosseini     |
 
