@@ -6,13 +6,13 @@ This document lists the QUiPP project team members and describes how we use GitH
 
 | Name               | Role                    | Proportion of time on project | Time period allocated to project |
 | ------------------ | ----------------------- | ----------------------------- | -------------------------------- |
-| Martin O'Reilly    |
-| Alison Heppenstall |
+| Martin O'Reilly    | 
+| Alison Heppenstall | 
 | Nik Lomax          |
 | Nick Malleson      |
 | Sebastian Vollmer  |
 | Greg Mingas        |
-| Oliver Strickson   |
+| Oliver Strickson   | RSE, REG lead           | 0.5                           | Oct 2019 - Endn.                 |
 | Louise Bowler      | Research Data Scientist | 0.5                           | Oct 2019 - ?                     |
 | Kasra Hosseini     |
 
@@ -25,7 +25,7 @@ You can reach members of the QUiPP team through their preferred communication me
 - ...
 - ...
 - Louise: I'm usually around on Slack (`@louise`) and GitHub (`@LouiseABowler`), and you can also reach me via email.
-- ...
+- Oliver: mailto:ostrickson@turing.ac.uk (preferred), Turing Slack (`@Oliver Strickson`), and I'm trying to get better at responding to GitHub mentions (@ots22)!
 - ...
 
 We have a private group Slack channel, `#quipp`, in the Turing's Slack workspace.
