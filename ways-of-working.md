@@ -16,6 +16,9 @@ This document lists the QUiPP project team members and describes how we use GitH
 | Louise Bowler      | Research Data Scientist | 0.5                           | Oct 2019 - ?                     |
 | Kasra Hosseini     |
 
+There is a GitHub team, [QUIPP](https://github.com/orgs/alan-turing-institute/teams/quipp), within the 
+alan-turing-institute organization, that should contain everyone on the project team above.
+
 ## Communication
 
 You can reach members of the QUiPP team through their preferred communication methods:
@@ -28,6 +31,21 @@ You can reach members of the QUiPP team through their preferred communication me
 We have a private group Slack channel, `#quipp`, in the Turing's Slack workspace.
 The REG team members will generally be available there, but remember that not everyone will check Slack regularly.
 
+## Git repositories
+
+There are likely to be multiple git repositories associated with this project, hosted on GitHub.
+
+This repository (https://github.com/alan-turing-institute/QUIPP-collab) is for project-related discussions.
+It is intended to remain **private**.
+
+When creating other repositories on GitHub - to host software produced by the project, for example - please make
+sure that, unless there is a specific reason not to:
+- they have "public" visibility
+- they contain an MIT-style licence, in a file called "LICENCE".  An exception to this may be in the case of forks of
+  other software.
+- they carry the `hut23` and `hut23-406` topics: these may be used to find the repositories associated with this project
+  (by us and others)
+- the team "QUIPP" should be granted at least "Write" permission (under Settings > Collaborators and Teams)
 
 ## Project management with GitHub
 
@@ -46,7 +64,18 @@ Tags are particularly useful for issues of the following types:
 When completed, issues should be closed right away.
 This can be done by pressing the "Close issue" button when viewing the issue, or by including, for example, "Closes \#1" in the description of a pull request which implements the feature requested in the issue.
 
+
 ### Project board
+
+The project board in this repository shows a high-level overview of our work on this project.
+
+If an issue concerns another repository (for example, a bug in some software that we produce), it should be made in this
+other repository, and and with discussions about it taking place there, instead of in QUIPP-collab (rationale: these
+discussions belong with the contents of the repo that they refer to, and are then also publicly visible). 
+
+Since it is not possible to add issues in other repos to the project board, consider creating a stub issue in this repo
+that links to more specific issues in any other repositories, and encourage any discussion to take place on these more
+specific issues.
 
 The four columns of the project board show our upcoming, current and completed work plans:
 - Backlog: Ideas and actions that we will work on, but not right away.
