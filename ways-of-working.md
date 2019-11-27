@@ -14,7 +14,7 @@ This document lists the QUiPP project team members and describes how we use GitH
 | Greg Mingas        |
 | Oliver Strickson   | RSE, REG lead           | 0.5                           | Oct 2019 - End                   |
 | Louise Bowler      | Research Data Scientist | 0.5                           | Oct 2019 - ?                     |
-| Kasra Hosseini     |
+| Kasra Hosseini     | Research Data Scientist | 0.5                           | Oct 2019 - ?                     |
 
 There is a GitHub team, [QUIPP](https://github.com/orgs/alan-turing-institute/teams/quipp), within the 
 alan-turing-institute organization, that should contain everyone on the project team above.
