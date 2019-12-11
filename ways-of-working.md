@@ -91,7 +91,7 @@ Everyone in the team is encouraged to add interesting papers, blog posts and oth
 
 To join the group, set up a Zotero account and ask an existing member to add you.
 The existing member should then:
-- In Zotero's web interface, select the "Groups" tab
+- Go to Zotero's web interface and select the "Groups" tab
 - Select the "SyntheticData" group
 - Click on "Group Settings"
 - Click on "Members settings"
@@ -102,11 +102,11 @@ To avoid duplication of effort when reading, we have attached short notes to som
 Notes can be added by clicking on the name of the paper, then clicking on the appropriate button in the panel on the right.
 
 We have recently (December 2019) started using tags to indicate the method and whether utility or privacy metrics were discussed in each paper.
-A list of the tags we currently use is below, and the most up-to-date version is kept in the `*Tag key` note in the SyntheticData library itself.
+A list of the tags we currently use is below, and the most up-to-date version is kept in the `*Tag key` note in the `SyntheticData` library itself.
 You can see tags in the bottom left corner of the screen; clicking on them filters the items by the relevant tag(s).
 Similarly to notes, tags can be added by clicking on the resource, then selecting the "Tags" button at the top of the panel on the right of the screen.
 
-You may also find it useful to hide auto-generated tags that are downloaded with the paper.
+You may also find it useful to hide auto-generated tags that are downloaded with some papers.
 To do this, click on the small colour palette below the list of tags, and uncheck "Show automatic".
 
 Our current list of tags is:
