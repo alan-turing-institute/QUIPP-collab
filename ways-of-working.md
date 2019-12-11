@@ -6,8 +6,8 @@ This document lists the QUiPP project team members and describes how we use GitH
 
 | Name               | Role                    | Proportion of time on project | Time period allocated to project |
 | ------------------ | ----------------------- | ----------------------------- | -------------------------------- |
-| Martin O'Reilly    | 
-| Alison Heppenstall | 
+| Martin O'Reilly    |
+| Alison Heppenstall |
 | Nik Lomax          |
 | Nick Malleson      |
 | Sebastian Vollmer  |
@@ -16,7 +16,7 @@ This document lists the QUiPP project team members and describes how we use GitH
 | Louise Bowler      | Research Data Scientist | 0.5                           | Oct 2019 - ?                     |
 | Kasra Hosseini     | Research Data Scientist | 0.5                           | Oct 2019 - ?                     |
 
-There is a GitHub team, [QUIPP](https://github.com/orgs/alan-turing-institute/teams/quipp), within the 
+There is a GitHub team, [QUIPP](https://github.com/orgs/alan-turing-institute/teams/quipp), within the
 alan-turing-institute organization, that should contain everyone on the project team above.
 
 ## Communication
@@ -71,7 +71,7 @@ The project board in this repository shows a high-level overview of our work on 
 
 If an issue concerns another repository (for example, a bug in some software that we produce), it should be made in this
 other repository, and and with discussions about it taking place there, instead of in QUIPP-collab (rationale: these
-discussions belong with the contents of the repo that they refer to, and are then also publicly visible). 
+discussions belong with the contents of the repo that they refer to, and are then also publicly visible).
 
 Since it is not possible to add issues in other repos to the project board, consider creating a stub issue in this repo
 that links to more specific issues in any other repositories, and encourage any discussion to take place on these more
@@ -87,10 +87,41 @@ The four columns of the project board show our upcoming, current and completed w
 ## Zotero
 
 We store relevant literature and notes in a shared [Zotero](https://www.zotero.org/) library, `SyntheticData`.
-Contact Martin if you need an invite to the group.
 Everyone in the team is encouraged to add interesting papers, blog posts and other resources to the library.
 
-To avoid duplication of effort when reading, we have been tagging papers with our name as we read them and attaching short notes.
-Tags and notes can be added by clicking on the name of the paper, then clicking on the appropriate button in the panel on the right.
+To join the group, set up a Zotero account and ask an existing member to add you.
+The existing member should then:
+- In Zotero's web interface, select the "Groups" tab
+- Select the "SyntheticData" group
+- Click on "Group Settings"
+- Click on "Members settings"
+- Under "Member Invitations", select "Send more invitations"
+- Add the new user's Zotero username or email into the box, then click "Invite Members"
 
-We do not currently use tags or folders to organise papers by subject, but may rethink this as the library grows.
+To avoid duplication of effort when reading, we have attached short notes to some of the papers.
+Notes can be added by clicking on the name of the paper, then clicking on the appropriate button in the panel on the right.
+
+We have recently (December 2019) started using tags to indicate the method and whether utility or privacy metrics were discussed in each paper.
+A list of the tags we currently use is below, and the most up-to-date version is kept in the `*Tag key` note in the SyntheticData library itself.
+You can see tags in the bottom left corner of the screen; clicking on them filters the items by the relevant tag(s).
+Similarly to notes, tags can be added by clicking on the resource, then selecting the "Tags" button at the top of the panel on the right of the screen.
+
+You may also find it useful to hide auto-generated tags that are downloaded with the paper.
+To do this, click on the small colour palette below the list of tags, and uncheck "Show automatic".
+
+Our current list of tags is:
+- **Microsimulation**: Describes/proposes/uses one or more microsimulation methods
+- **MI**: Describes/proposes/uses one or more multiple imputation methods
+- **GAN**: Describes/proposes/uses one or more GAN methods
+- **Autoencoders**: Describes/proposes/uses one or more autoencoder methods
+- **SMOTE**: Describes/proposes/uses one or more SMOTE methods
+- **Parametric model**: Uses parametric models for synthesis (usually with MI but not always)
+- **Non-parametric model**: Uses non-parametric models for synthesis (usually with MI but not always)
+- **Bayesian model**: Uses Bayesian model for synthesis
+- **Utility**: Describes/proposes/uses utility metrics
+- **Privacy**: Describes/proposes/uses privacy metrics
+- **Library**: Describes or contains a software library
+- **Review/Survey**: Is a review or survey of various methods (or a tutorial)
+- **Application**: Main focus of the document is solving a problem in a specific application area
+- **Book**: Is a book
+- **Dataset**: Is a dataset
