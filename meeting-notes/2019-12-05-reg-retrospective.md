@@ -25,10 +25,10 @@ Oliver and Camila have caught up already :white_check_mark:
 
 _Aim for five minutes each, with extra time hopefully available for questions etc._ :hourglass:
 
-- [name=Greg] `simPop` pipeline - microsimulation, or other applications. Use iterative proportional fitting to get weights of individuals, then extend to get population. Not so much of a focus on privacy in the package.
-- [name=Kasra] Went through course to understand GANs better. Measure of similarity between synthetic and real data: add synth data to minority class and see how recall is affected.
-- [name=Louise] Microsimulation with `humanleague`. Some questions about licensing but I'll include a separate licence for the initial go with the method. Coming soon - application to different datasets; will investigate those Greg has used in other microsimulation pipeline.
-- [name=Oliver] `MICE`. Targeted for filling in records. Synthetic data - insert blank row, then impute values. Different options for algorithms used. Also differential privacy - put outcomes in report.
+- Greg: `simPop` pipeline - microsimulation, or other applications. Use iterative proportional fitting to get weights of individuals, then extend to get population. Not so much of a focus on privacy in the package.
+- Kasra: Went through course to understand GANs better. Measure of similarity between synthetic and real data: add synth data to minority class and see how recall is affected.
+- Louise: Microsimulation with `humanleague`. Some questions about licensing but I'll include a separate licence for the initial go with the method. Coming soon - application to different datasets; will investigate those Greg has used in other microsimulation pipeline.
+- Oliver: `MICE`. Targeted for filling in records. Synthetic data - insert blank row, then impute values. Different options for algorithms used. Also differential privacy - put outcomes in report.
 
 Let's keep an eye out for methods that have commonalities - can we make parts of these pipelines easier to reuse?
 
@@ -132,12 +132,9 @@ We'll go through each of the four points one-by-one. Take a couple of minutes to
 - Chance to play with CI tools
 
 ### Actions
-
 - We have dates in the diary for our future meetings - should help with syncing up.
 - Can we have a strategy meeting at some point? First one in January? Circulate planning document?
 - Time - set times should help.
 - Goals aren't so clear - can we think more about the problems that the Co-Is have? Can Co-Is provide examples of open datasets that might be useful to work with?
-
 - Camila has access to data from AIDA that might make for nice examples - talk to James G.
-
 - CI tools - let's each make sure our own parts of the pipeline can be run using CI
