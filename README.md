@@ -1,7 +1,7 @@
 # QUIPP-collab
 Collaboration on the QUIPP project.
 
-Code is in the [pipeline repository](https://github.com/alan-turing-institute/QUIPP-pipeline)
+Code is in the [QUIPP-pipeline](https://github.com/alan-turing-institute/QUIPP-pipeline) repo.
 
 ## Admin
  - Our project code is  `R-SPET-202`
