@@ -1,0 +1,60 @@
+Submission due: 11 March 2020
+
+## Outcome categories
+
+### Publications
+- Privacy preserving computation overview for medical practitioners (with Sebastian and Bilal). Could potentially have this submitted by 11 March.
+- More detailed review of synthetic data techniques with Hazy. Not started so won't be submitted by 11 March.
+- No other papers started, so won't be submitted by 11 March.
+
+### Collaborations & Partnerships
+Should we include only those in place or with concrete actions (e.g. submitted proposal)?
+
+- Conversations with Hazy on collaborating on synthetic data in finance sector
+  - Synthetic data methods review paper (not started)
+  - Technology Strategy Board grant submission with Hazy + FCA (submitted). Will fund a post-doc to work on synthetic data in finance and provide access to FCA data.
+- Conversations with Dundee on evaluating sensitivity of ML models trained on sensitive data to determine if they can be safely shared outside of safe haven secure compute environments. Had initial meeting focussed on our safe haven work during which the issue of egressing trained models arose. Both sides were very enthusiastic about collaborating on safe havens and evaluation of model sensitivity. Follow up meeting on 13 Feb with the director of the Health Informatics Centre.
+- Conversations with Accenture Labs (Dublin). They are working on deep learning models for synthetic data generation. There seems strong overlap on the methods we are looking at in QUIPP and we both seem to have similar goals for methods evaluation and appear to be at a similar stage of our investigation. There was enthusiasm on both sides to see how we can collaborate. Next step is to share overviews of plans and current work.
+- Barking, Havering and Redbridge NHS Trust hospital admissions data (Nik Haliasos). I'll re-invigorate work to get this formalised.
+- UCL Health data (Ed Palmer is involved in collecting this)
+- Formalise connections to other ASG projects:
+  - SPENSER
+  - ???
+  
+
+### Further Funding
+- Technology Strategy Board grant submission with Hazy + FCA (submitted). Will fund a post-doc to work on synthetic data in finance and provide access to FCA data.
+
+### Next Destination
+
+### Engagement Activities
+Talks given
+- Presented overview of project to ASG Health Theme meeting (23 Oct 2019)
+- Presented overview of project to ASG/EPSRC monthly meeting (16 Dec 2019)
+
+Talks / workshops submitted / in pipeline (should we include these or leave til next update):
+- Proposed demo / mini-workshop for SSI collaborations workshop (31 Mar - 01 Apr). Should have decision by 11 Mar. 
+- We could schedule a synthetic data workshop. Potential to link to Ed Palmer's plans for a "synth-a-thon".
+
+### Influence on Policy, Practice, Patients & the Public
+
+### Research Tools & Methods
+
+### Research Databases & Models
+
+### Intellectual Property & Licensing
+
+### Medical Products, Interventions & Clinical Trials
+
+### Artistic & Creative Products
+
+### Software & Technical Products
+- Developing benchmarking code in the open at https://github.com/alan-turing-institute/QUIPP-pipeline
+
+### Spin Outs
+
+### Awards & Recognition
+
+### Other Outputs & Knowledge/Future Steps
+
+### Use of Facilities & Resources
