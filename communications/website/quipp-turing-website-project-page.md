@@ -93,7 +93,7 @@ Achievements/project milestones reached since project started, with month/year
 > - For example it deals with highly sensitive subject matter such as abuse, violence, grief, etc
 
 - [ ] Yes, there are sensitivities 
-- [ ] No, there aren't any sensitivities
+- [x] No, there aren't any sensitivities
 
 ### People
 #### Participating researchers
