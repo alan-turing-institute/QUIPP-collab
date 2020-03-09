@@ -47,7 +47,11 @@ We are evaluating a range of data synthesis techniques in the contexts of both h
 > - Why is this work worth doing?
 > - 100-300 words
 
-The outcomes of this project will be new tools that can be given to researchers and stakeholders alike that facilitate the creation of accurate synthetic populations where analytical utility is retained, the privacy of individuals is ensured and the uncertainty within the population known.
+We are evaluating a range of existing synthetic data generation techniques to understand how well they can be used to generate synthetic datasets from sensitive datasets in a way that both ensures the privacy of individuals and remains useful for answering the same research questions as the original sensitive dataset. This will involve evaluating these data synthesis techniques against a range of privacy and utility measures.
+
+We are also evaluating the uncertainty introduced by these data synthesis methods and how this uncertainty propagates when the synthetic data is combined with other data and is used in simulations that evolve in space and time.
+
+In addition to making our analysis reproducible and openly available, we will also ensure that we make our work reusable by others by packaging our evaluation code into robust, reliable, reusable benchmarking tools that can be used by researchers, practitioners, data holders and other stakeholders to evaluate these data synthesis techniques for their own datasets and application contexts, facilitating the creation of accurate synthetic populations where analytical utility is retained, the privacy of individuals is ensured and the uncertainty within the population known.
 
 ### Explaining the science *
 
