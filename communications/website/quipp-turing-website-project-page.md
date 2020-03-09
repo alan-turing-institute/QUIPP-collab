@@ -53,11 +53,24 @@ We are also evaluating the uncertainty introduced by these data synthesis method
 
 In addition to making our analysis reproducible and openly available, we will also ensure that we make our work reusable by others by packaging our evaluation code into robust, reliable, reusable benchmarking tools that can be used by researchers, practitioners, data holders and other stakeholders to evaluate these data synthesis techniques for their own datasets and application contexts, facilitating the creation of accurate synthetic populations where analytical utility is retained, the privacy of individuals is ensured and the uncertainty within the population known.
 
+We will develop our open benchmarking tools to ensure that is is easy for others to add additional data synthesis methods, evaluation datasets and measures for evaluating privacy, utility and uncertainty.
+
 ### Explaining the science *
 
 > - Is there theory or methods that would be good to explain to understand the project’s work better? 
 > - Use plain English where possible
 > - 100-300 words
+
+There are a variety of methods for generating synthetic data and our goal is to include as wide a range of these as possible in our evaluation, as well as ensuring that we develop our open benchmarking tools in such a way that it is easy for others to add new methods to the benchmark.
+
+For an overview of some key data synthesis methods see [REF], or see the links below for more detail on some of the methods we are evaluating.
+
+- Multiple Imputation [REF]
+- Iterative Proportional Fitting [REF]
+- Simulated Annealing [REF]
+- Model-based Synthesis [REF]
+- Generative Adversarial Networks [REF]
+- Variational Auto-Encoders [REF]
 
 ### Real world applications *
 > - Where is this work being applied, what area/industry could it benefit?
