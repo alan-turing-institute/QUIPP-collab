@@ -1,4 +1,4 @@
-Submission due: 12 March 2020
+As submitted 12 March 2020 (08:00 GMT)
 
 ## Outcome categories
 
