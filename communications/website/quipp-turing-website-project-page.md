@@ -47,7 +47,7 @@ We are evaluating a range of data synthesis techniques in the contexts of both h
 > - Why is this work worth doing?
 > - 100-300 words
 
-We are evaluating a range of existing synthetic data generation techniques to understand how well they can be used to generate synthetic datasets from sensitive datasets in a way that both ensures the privacy of individuals and remains useful for answering the same research questions as the original sensitive dataset. This will involve evaluating these data synthesis techniques against a range of privacy and utility measures.
+We are evaluating a range of existing synthetic data generation techniques to understand how they ensure the privacy of individuals yet remain useful for answering the same research questions as the original sensitive dataset. This will involve evaluating these data synthesis techniques against a range of privacy and utility measures.
 
 We are also evaluating the uncertainty introduced by these data synthesis methods and how this uncertainty propagates when the synthetic data is combined with other data and is used in simulations that evolve in space and time.
 
