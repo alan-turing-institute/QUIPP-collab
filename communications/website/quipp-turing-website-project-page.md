@@ -63,7 +63,7 @@ We will develop our open benchmarking tools to ensure that is is easy for others
 
 There are a variety of methods for generating synthetic data and our goal is to include as wide a range of these as possible in our evaluation. We will ensure that we develop our open benchmarking tools in such a way that it is easy for others to add new methods to the benchmark.
 
-For an overview of some key data synthesis methods see [REF], or see the links below for more detail on some of the methods we are evaluating.
+For an overview of some key data synthesis methods [see this review from the ONS](https://datasciencecampus.ons.gov.uk/projects/synthetic-data-for-public-good/) and [this review that deals with microsimulation methods](https://ideas.repec.org/a/ijm/journl/v7y2014i1p4-25.html) or use the list below that refers to specific methods from the literature:
 
 - Multiple Imputation [REF]
 - Iterative Proportional Fitting [REF]
