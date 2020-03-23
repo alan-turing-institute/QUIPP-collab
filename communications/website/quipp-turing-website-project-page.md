@@ -32,7 +32,7 @@ Clear, concise, ~3 sentences – e.g.
 > - 2nd sentence: the potential solution/method
 > - 3rd sentence: applications, output
 
-Sensitive datasets are often too inaccessible to make the most effective use of them. Synthetic datasets are an alternative, but poorly understood in terms of how well they preserve privacy and utility.
+Sensitive datasets are often too inaccessible to make the most effective use of them (for example healthcare or census micro-data). Synthetic datasets are an alternative, but poorly understood in terms of how well they preserve privacy and utility.
 
 We are evaluating how well data synthesis methods preserve both individuals’ privacy and the utility of datasets for analysis. Where methods sufficiently preserve both privacy and utility, then synthetic datasets could be made available in more accessible environments.
 
