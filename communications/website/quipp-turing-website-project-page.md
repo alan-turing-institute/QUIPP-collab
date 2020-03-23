@@ -51,7 +51,7 @@ We are evaluating a range of existing synthetic data generation techniques to un
 
 We are also evaluating the uncertainty introduced by these data synthesis methods and how this uncertainty propagates when the synthetic data is combined with other data and is used in simulations that evolve in space and time.
 
-In addition to making our analysis reproducible and openly available, we will also ensure that we make our work reusable by others by packaging our evaluation code into robust, reliable, reusable benchmarking tools that can be used by researchers, practitioners, data holders and other stakeholders to evaluate these data synthesis techniques for their own datasets and application contexts, facilitating the creation of accurate synthetic populations where analytical utility is retained, the privacy of individuals is ensured and the uncertainty within the population known.
+In addition to making our analysis reproducible and openly available, we will also ensure that we make our work reusable by others by packaging our evaluation code into robust, reliable, reusable benchmarking tools. These tools can be used by researchers, practitioners, data holders and other stakeholders to evaluate these data synthesis techniques for their own datasets and application contexts.
 
 We will develop our open benchmarking tools to ensure that is is easy for others to add additional data synthesis methods, evaluation datasets and measures for evaluating privacy, utility and uncertainty.
 
