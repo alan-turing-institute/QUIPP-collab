@@ -86,7 +86,7 @@ We are working with colleagues on the Turing's [SPENSER](https://www.turing.ac.u
 
 ### Recent updates
 
-Achievements/project milestones reached since project started, with month/year
+- [Mini workshop at SSI Collaborations Workshop 2020](https://software.ac.uk/cw20/mini-workshops-and-demo-sessions#4.3): Presentation of current progress of the project along with a demo of an early version pipeline.
 
 ### Sensitivities
 > - Are there likely to be any sensitivities within or around this project?
