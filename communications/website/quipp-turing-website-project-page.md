@@ -65,7 +65,7 @@ There are a variety of methods for generating synthetic data and our goal is to 
 
 For an overview of some key data synthesis methods [see this review from the ONS](https://datasciencecampus.ons.gov.uk/projects/synthetic-data-for-public-good/) and [this review that deals with microsimulation methods](https://ideas.repec.org/a/ijm/journl/v7y2014i1p4-25.html) or use the list below that refers to specific methods from the literature:
 
-- Multiple Imputation [REF]
+- Model-based Synthesis (including multiple imputation)
 - Iterative Proportional Fitting [REF]
 - Simulated Annealing [REF]
 - Model-based Synthesis [REF]
