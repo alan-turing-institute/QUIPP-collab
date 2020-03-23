@@ -100,7 +100,7 @@ We are working with colleagues on the Turing's [SPENSER](https://www.turing.ac.u
 > - Please include titles and affiliations for all participants
 
 - Dr Oliver Strickson (The Alan Turing Institute)
-- Dr Luise Bowler (The Alan Turing Institute)
+- Dr Louise Bowler (The Alan Turing Institute)
 - Dr Kasra Hosseini (The Alan Turing Institute)
 - Dr Camila Rangel Smith (The Alan Turing Institute)
 - Dr Grigorios Mingas (The Alan Turing Institute)
