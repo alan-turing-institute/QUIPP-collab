@@ -53,7 +53,7 @@ We are also evaluating the uncertainty introduced by these data synthesis method
 
 In addition to making our analysis reproducible and openly available, we will also ensure that we make our work reusable by others by packaging our evaluation code into robust, reliable, reusable benchmarking tools. These tools can be used by researchers, practitioners, data holders and other stakeholders to evaluate these data synthesis techniques for their own datasets and application contexts.
 
-We will develop our open benchmarking tools to ensure that is is easy for others to add additional data synthesis methods, evaluation datasets and measures for evaluating privacy, utility and uncertainty.
+We will develop our open benchmarking tools to ensure that it is easy for others to add additional data synthesis methods, evaluation datasets and measures for evaluating privacy, utility and uncertainty.
 
 ### Explaining the science *
 
@@ -61,19 +61,17 @@ We will develop our open benchmarking tools to ensure that is is easy for others
 > - Use plain English where possible
 > - 100-300 words
 
-There are a variety of methods for generating synthetic microdata: our goal is to include as wide a range of these as possible in our evaluation platform.  We ensure that it is straightforward for any user to extend the platform by adding new methods into the benchmarking pipeline.
+There are a variety of methods for generating synthetic microdata: our goal is to include as wide a range of these as possible in our evaluation platform.  We ensure that it is straightforward for any user to extend the platform by adding new methods into the benchmarking pipeline. For an overview of some key data synthesis methods [see this review from the ONS](https://datasciencecampus.ons.gov.uk/projects/synthetic-data-for-public-good/) and [this review that deals with microsimulation methods](https://ideas.repec.org/a/ijm/journl/v7y2014i1p4-25.html).
 
-Similarly, once data has been synthesized, we want to know:
-- is it useful for replacing real individual-level data in a given application?
-- what is the privacy risk to the individuals in the original dataset?
+Once data has been synthesized, we want to know:
+- Is it useful for replacing real individual-level data in a given application?
+- What is the privacy risk to the individuals in the original dataset?
 
 The first of these questions, on the utility of the data, strongly depends on the nature of the application, and this means having a flexible platform for specifying and quantifying many such measures.
 
-Privacy preservation offers a wealth of theoretically-based and also more ad-hoc methods.  These ultimately aim to measure the risk to an individual by having certain information released, and this applies to synthetic records too, since the synthesis depends on some individuals' data, which might be sensitive.  The underlying idea is often to perturb the underlying data, or parameters of a model, with some noise.  The results of these methods can sometimes be related to one another, but often they are incomparible, and not all measures of privacy are applicable to each synthesis method.  This makes it important to clearly present any privacy results, their implications, and link to their theoretical underpinning where possible.
+Privacy preservation offers a wealth of theoretically-based and also more ad-hoc methods.  These ultimately aim to measure the risk to an individual when certain information is released. This applies to synthetic records too, since the synthesis depends on some individuals' data, which might be sensitive.  The underlying idea is often to perturb the underlying data, or parameters of a model, with some noise.  The results of these methods can sometimes be related to one another, but often they are incompatible, and not all measures of privacy are applicable to each synthesis method.  This makes it important to clearly present any privacy results, their implications, and link to their theoretical underpinning where possible.
 
-For an overview of some key data synthesis methods [see this review from the ONS](https://datasciencecampus.ons.gov.uk/projects/synthetic-data-for-public-good/) and [this review that deals with microsimulation methods](https://ideas.repec.org/a/ijm/journl/v7y2014i1p4-25.html).
-
-Data privacy is a research area that has attracted increased attention in the last decade. We are exploring existing and novel techniques to quantify the privacy of a synthesised data set. These include data-driven methods which are independent of the synthesis algorithm used, as well as methods that embed privacy in the synthesis process. A few examples include:
+We are exploring existing and novel techniques to quantify the privacy of a synthesised data set. These include data-driven methods which are independent of the synthesis algorithm used, as well as methods that embed privacy in the synthesis process. A few examples include:
 
   - Differential privacy
   - Plausible deniability
@@ -87,7 +85,7 @@ Sensitive data is critical for research in a range of fields, including healthca
 
 We are working with colleagues developing a [Triage dashboard for hospital emergency departments](https://www.turing.ac.uk/research/research-projects/analytics-dashboard-ae) to evaluate to what extent synthetic data can be used in place of sensitive patient data in the development of algorithms to support the patient triage process in hospital emergency departments.
 
-We are also collaborating with researchers from University College London Critical Care Health Informatics Collaborative (https://hic.nihr.ac.uk/) to evaluate whether data synthesis techniques can generate privacy preserving versions of their critical care patient data.
+We are also collaborating with researchers from [University College London Critical Care Health Informatics Collaborative](https://hic.nihr.ac.uk/) to evaluate whether data synthesis techniques can generate privacy preserving versions of their critical care patient data.
 
 In many cases, researchers are already working with datasets that have been de-identified or otherwise altered to preserve the privacy of the individuals to which the data pertains, often resulting in a reduction in the resolution of the data with respect to various properties (e.g. location, age, timing). In these cases, data synthesis techniques are often used to recreate the detail that is lost in the de-identification process and understanding the uncertainty these techniques introduce is important when interpreting the data and simulations that rely on it.
 
