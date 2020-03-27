@@ -32,13 +32,13 @@ Clear, concise, ~3 sentences – e.g.
 > - 2nd sentence: the potential solution/method
 > - 3rd sentence: applications, output
 
-Sensitive datasets are often too inaccessible to make the most effective use of them (for example healthcare or census micro-data). Synthetic datasets are an alternative, but poorly understood in terms of how well they preserve privacy and utility.
+Sensitive datasets are often too inaccessible to make the most effective use of them (for example healthcare or census micro-data). Synthetic datasets are an alternative, but poorly understood in terms of how well they preserve the privacy of individuals on which the synthesis is based, and also of their utility (how representative of the underlying population the data are).
 
 We are evaluating how well data synthesis methods preserve both individuals’ privacy and the utility of datasets for analysis. Where methods sufficiently preserve both privacy and utility, then synthetic datasets could be made available in more accessible environments.
 
 Generating synthetic data introduces additional uncertainty compared to the original dataset. We are quantifying this uncertainty and understanding how it propagates through space and time when synthetic data is used for modelling purposes.
 
-We are evaluating a range of data synthesis techniques in the contexts of both health and urban analytics applications and developing an open source pipeline for data owners to easily re-use to evaluate the potential effectiveness and impact of using synthetic data in their own contexts.
+We are evaluating a range of data synthesis techniques in the contexts of both health and urban analytics applications and developing an open-source pipeline for data owners to easily use to evaluate the potential effectiveness and impact of using synthetic data for their own applications.
 
 ### Aims/expected outcomes *
 
@@ -61,16 +61,17 @@ We will develop our open benchmarking tools to ensure that is is easy for others
 > - Use plain English where possible
 > - 100-300 words
 
-There are a variety of methods for generating synthetic data and our goal is to include as wide a range of these as possible in our evaluation. We will ensure that we develop our open benchmarking tools in such a way that it is easy for others to add new methods to the benchmark.
+There are a variety of methods for generating synthetic microdata: our goal is to include as wide a range of these as possible in our evaluation platform.  We ensure that it is straightforward for any user to extend the platform by adding new methods into the benchmarking pipeline.
 
-For an overview of some key data synthesis methods [see this review from the ONS](https://datasciencecampus.ons.gov.uk/projects/synthetic-data-for-public-good/) and [this review that deals with microsimulation methods](https://ideas.repec.org/a/ijm/journl/v7y2014i1p4-25.html) or use the list below that refers to specific methods from the literature:
+Similarly, once data has been synthesized, we want to know:
+- is it useful for replacing real individual-level data in a given application?
+- what is the privacy risk to the individuals in the original dataset?
 
-- Model-based Synthesis (including multiple imputation)
-- Iterative Proportional Fitting [REF]
-- Simulated Annealing [REF]
-- Model-based Synthesis [REF]
-- Generative Adversarial Networks [REF]
-- Variational Auto-Encoders [REF]
+The first of these questions, on the utility of the data, strongly depends on the nature of the application, and this means having a flexible platform for specifying and quantifying many such measures.
+
+Privacy preservation offers a wealth of theoretically-based and also more ad-hoc methods.  These ultimately aim to measure the risk to an individual by having certain information released, and this applies to synthetic records too, since the synthesis depends on some individuals' data, which might be sensitive.  The underlying idea is often to perturb the underlying data, or parameters of a model, with some noise.  The results of these methods can sometimes be related to one another, but often they are incomparible, and not all measures of privacy are applicable to each synthesis method.  This makes it important to clearly present any privacy results, their implications, and link to their theoretical underpinning where possible.
+
+For an overview of some key data synthesis methods [see this review from the ONS](https://datasciencecampus.ons.gov.uk/projects/synthetic-data-for-public-good/) and [this review that deals with microsimulation methods](https://ideas.repec.org/a/ijm/journl/v7y2014i1p4-25.html).
 
 ### Real world applications *
 > - Where is this work being applied, what area/industry could it benefit?
