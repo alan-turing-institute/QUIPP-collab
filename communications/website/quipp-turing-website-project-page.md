@@ -23,7 +23,7 @@ Quantifying Utility and Preserving Privacy in Synthetic Data Sets (QUIPP)
 > - 1 sentence summary/sub-heading
 > - 1 sentence, present tense, e.g. Using…, Developing…, Investigating…_
 
-Quantifying how well synthetic data generation techniques preserve individual privacy while retaining the utility of the dataset for data science analyses and understanding the uncertainty introduced by these synthesis techniques.
+Understanding the balance between utility, privacy and the uncertainty associated with synthetic data sets.
 
 ### Brief description *
 
