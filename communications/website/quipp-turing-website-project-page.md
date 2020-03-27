@@ -73,6 +73,12 @@ Privacy preservation offers a wealth of theoretically-based and also more ad-hoc
 
 For an overview of some key data synthesis methods [see this review from the ONS](https://datasciencecampus.ons.gov.uk/projects/synthetic-data-for-public-good/) and [this review that deals with microsimulation methods](https://ideas.repec.org/a/ijm/journl/v7y2014i1p4-25.html).
 
+Data privacy is a research area that has attracted increased attention in the last decade. We are exploring existing and novel techniques to quantify the privacy of a synthesised data set. These include data-driven methods which are independent of the synthesis algorithm used, as well as methods that embed privacy in the synthesis process. A few examples include:
+
+  - Differential privacy
+  - Plausible deniability
+  - Adversarial methods
+
 ### Real world applications *
 > - Where is this work being applied, what area/industry could it benefit?
 > - 100-300 words
