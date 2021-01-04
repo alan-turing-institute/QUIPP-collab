@@ -16,6 +16,7 @@ Current team members are:
 - [gmingas](https://github.com/gmingas) (REG)
 - [ots22](https://github.com/ots22) (REG)
 - [kasra-hosseini](https://github.com/kasra-hosseini) (REG)
+- [oscartgiles](https://github.com/OscartGiles) (REG)
 
 Former team members:
 - [crangelsmith](https://github.com/crangelsmith)
