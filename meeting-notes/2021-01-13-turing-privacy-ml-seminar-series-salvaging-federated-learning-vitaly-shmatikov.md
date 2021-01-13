@@ -2,6 +2,8 @@
 # Salvaging Federated Learning
 Vitaly Shmatikov
 13 January 2021
+Talk recording: https://www.youtube.com/watch?v=Tx2T3LojHIQ
+Related preprint: https://arxiv.org/abs/2002.04758
 
 ## Introduction
 - Federated learning has significant issues
